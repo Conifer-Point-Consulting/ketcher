@@ -1,4 +1,5 @@
 {
+  "name": "ketcher-bmaps",
   "private": true,
   "workspaces": [
     "packages/*",
