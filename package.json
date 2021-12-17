@@ -61,5 +61,8 @@
     "*.{css,less,scss}": [
       "stylelint --formatter verbose --fix --allow-empty-input"
     ]
+  },
+  "dependencies": {
+    "yarn": "^1.22.17"
   }
 }
