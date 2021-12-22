@@ -14,7 +14,8 @@
  * limitations under the License.
  ***************************************************************************/
 
-import 'draft-js/dist/Draft.css'
+// Don't import the CSS here; do it in the parent application, to make Next.js happy
+// import 'draft-js/dist/Draft.css'
 
 import {
   DraftStyleMap,
