@@ -1,10 +1,13 @@
 {
   "private": true,
+  "name": "ketcher-bmaps",
+  "version": "2.3.3",
   "workspaces": [
     "packages/*",
     "example"
   ],
   "scripts": {
+    "prepare": "yarn && yarn build",
     "postinstall": "husky install",
     "precommit": "lint-staged --allow-empty",
     "prepush": "yarn workspaces foreach -pv run test:eslint",
