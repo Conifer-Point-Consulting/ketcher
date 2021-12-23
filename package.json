@@ -3,7 +3,7 @@
   "name": "ketcher-bmaps",
   "version": "2.3.3",
     "main": "packages/ketcher-react/dist/index.js",
-    "module" "packages/ketcher-react/dist/index.modern.js",
+    "module": "packages/ketcher-react/dist/index.modern.js",
     "types": "packages/ketcher-react/dist/index.d.ts",
     "source": "packages/ketcher-react/src/index.tsx",
   "workspaces": [
